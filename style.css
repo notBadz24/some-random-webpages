@@ -1,115 +1,90 @@
-.links :hover
-{
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-body
-{
-    margin: 0;
-    padding-top: 900px;
+body{
     text-align: center;
+    background: linear-gradient( #4287f5 0%,#4bf542 100%);
 }
 
-.image
-{
+img{
+  width:100;
+  height:100;
     border-radius: 50%;
+    
 }
-
-#welcome
-{
-    z-index: 1;
-    color: whitesmoke;
-    position: absolute;
-    opacity: 1;
-    bottom: 0;
-    background: linear-gradient(#AA2C28 0%, #EF522A 100%);
-    display: table;
-    width: 100%;
-    height: 100%;
+#myname{
+   font-family: 'Courgette', cursive;
 }
-
-.pi
-{
-    display: table-cell;
-    vertical-align: middle;
+#Favorite_food{
+     padding:40px;
+    text-align:center;
 }
-
-h1
-{
-    font-size: 40px;
-    font-family: 'Varela Round', sans-serif;
-    font-weight: 300;
+h1{
+  
+  font-size:18px;
 }
-
-#name
-{
-    font-size: 50px;
-    font-family: 'Comfortaa', cursive;
+p{
+  font-size:18px;
+  color:#6A1B9A;
+    
 }
-
-h2
-{
-    font-size: 30px;
-    font-weight: 300;
-    font-family: monospace;
+h2{
+  font-size:20px;
+  color:#003487;
 }
-
-.line
-{
+.line{
     height: 6px;
-    width: 70px;
-    background-color: #000;
-    margin: 8px auto;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
 }
 
-#bio
-{
-    font-family: cursive;
-    padding: 50px;
-}
-
-.menu
-{
-    z-index: 10;
-    list-style: none;
-    position: fixed;
-    top: 0px;
+.menu{
+   list-style: none;
+    font-family:cursive;
+   float:right;
+    top:10px;
+    right:30px;
     cursor: pointer;
-    margin-top: 0px;
-    width: 100%;
-    background-color: aliceblue;
+    color:black;
+}
+.menu a{
+    color:black !important;
 }
 
-.links
-{
+
+.link{
+    color:crimson;
     display: inline;
-    font-family: fantasy;
-    font-size: 20px;
-    padding-top: 5px;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
     padding-bottom: 5px;
-    padding-left: 33px;
-    padding-right: 25px;
-    color: white;
+}
+   .link:hover{
+    background-color:beige;
 }
 
-a
+
+
+#picture{
+    width:auto;
+    height:300px;
+   border-radius:0%;
+    
+    margin:20px;
+}
+.food
 {
-    text-decoration: none;
+  background: #373B44;  /* fallback for old browsers */
+
+ background: linear-gradient( #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-top:20px;
 }
 
-#writings a
-{
-    text-decoration: underline !important;
-    color: green !important;
+img {
+transition: transform .2s;
+border: 10px solid #AAAAAA;
 }
 
-.contact_1 h3
-{
-    display: inline;
-}
-
-#contact
-{
-    background-color: lightslategray;
+img:hover {
+    /* Give transform property to scale to 0.9 */
+    transform: scale(0.9);
 }
